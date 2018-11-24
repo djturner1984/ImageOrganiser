@@ -8,7 +8,11 @@ This app expects to be looking at files in s3, when it finds images that match t
 Pre-requisites
 
 .NET core
+
 Existing s3 bucket
+
 Existing s3 profile on machine with read/write access to bucket
+
 Access key and secret key specified in appsettings (tried to avoid this but AmazonRekognitionClient forces you to)
+
 Specify source prefix in app settings
